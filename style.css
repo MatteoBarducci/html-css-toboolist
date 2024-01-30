@@ -20,5 +20,34 @@ body{
 header{
     background-color: white;
     padding: 10px 20px 10px;
+    margin-bottom: 50px;
 }
 
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 50px 5px 50px;
+}
+
+.button{
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.blue{
+    background-color: #47ADF2;
+    color: white;
+    border: 1px solid #47ADF2;
+    box-sizing: border-box;
+}
+
+.white{
+    background-color: white;
+    color: #D2D7DB;
+    border: 1px solid #C5CBD0;
+    box-sizing: border-box;
+}
