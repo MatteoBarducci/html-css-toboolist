@@ -26,10 +26,18 @@ header{
 .container{
     background-color: white;
     width: 70%;
+    padding: 10px 50px 5px 50px;
+}
+.first-container{
     margin: auto;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    padding: 10px 50px 5px 50px;
+}
+
+.second-container{
+    margin: 5px auto;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .button{
@@ -38,16 +46,78 @@ header{
     padding: 7px;
 }
 
-.blue{
+.blue-button{
     background-color: #47ADF2;
     color: white;
     border: 1px solid #47ADF2;
     box-sizing: border-box;
 }
 
-.white{
+.white-button{
     background-color: white;
     color: #D2D7DB;
     border: 1px solid #C5CBD0;
     box-sizing: border-box;
+}
+
+.category{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.task{
+    margin-top: 15px;
+}
+
+.circle{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: small;
+    margin-right: 5px;
+}
+
+.green-circle{
+    border: 1px solid #65C0A9;
+    color: #65C0A9;
+}
+
+.red-circle{
+    border: 1px solid #EA4237;
+    color: #EA4237;
+}
+
+.label{
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    padding: 7px;
+    color: white;
+    border-radius: 12px;
+}
+
+.blue-label{
+    background-color: #45ABEA;
+}
+
+.purple-label{
+    background-color: #9D72E4;
+}
+
+.green-label{
+    background-color: #65C0A9;
+}
+
+.orange-label{
+    background-color: #F29D33;
+}
+
+.magenta-label{
+    background-color: #D963A1;
+}
+
+.lightgreen-label{
+    background-color: #B0C925;
 }
